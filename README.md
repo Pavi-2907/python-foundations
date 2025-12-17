@@ -1,10 +1,10 @@
 # Python Foundations for AI
 
-## Overview
+# Overview
 This repository contains my structured learning of Python fundamentals required for
 Artificial Intelligence, Machine Learning, and Data Science.
 
-## Topics Covered
+# Topics Covered
 - Python Basics
 - Control Flow
 - Data Structures
@@ -12,14 +12,14 @@ Artificial Intelligence, Machine Learning, and Data Science.
 - Object-Oriented Programming
 - File Handling
 
-## Purpose
+# Purpose
 - Build strong Python foundations
 - Write clean and readable code
 - Prepare for AI/ML/DL projects
 
-## Tools Used
+# Tools Used
 - Python 3
 - Jupyter Notebook
 
-## Status
+# Status
 In progress 🚧
