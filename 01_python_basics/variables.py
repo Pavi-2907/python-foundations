@@ -18,3 +18,11 @@ height = 5.4
 is_ai_student = True
 
 print(age, name, height, is_ai_student)
+
+# Check data types
+print(type(age))
+print(type(name))
+print(type(height))
+print(type(is_ai_student))
+
+
