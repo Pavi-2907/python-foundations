@@ -2,43 +2,81 @@
 Topic: Data Types in Python
 Author: Pavithra K
 Description:
-This file explains built-in data types in Python with simple examples.
-Understanding data types is essential for AI, ML, and Data Science.
+This file explains Python data types with examples.
+Python has several built-in data types which are essential for AI/ML/DL programming.
 """
 
+# ---------------------------
+# 1. Numeric Data Types
+# ---------------------------
+
 # Integer
-count = 10
-print("Integer:", count, type(count))
+age = 25
+print("Age:", age, "| Type:", type(age))
 
 # Float
-price = 99.99
-print("Float:", price, type(price))
+height = 5.6
+print("Height:", height, "| Type:", type(height))
+
+# Complex
+complex_number = 2 + 3j
+print("Complex Number:", complex_number, "| Type:", type(complex_number))
+
+
+# ---------------------------
+# 2. Sequence Data Types
+# ---------------------------
 
 # String
-name = "Python"
-print("String:", name, type(name))
+name = "Pavithra"
+print("Name:", name, "| Type:", type(name))
 
-# Boolean
-is_active = True
-print("Boolean:", is_active, type(is_active))
+# List
+fruits = ["apple", "banana", "mango"]
+print("Fruits:", fruits, "| Type:", type(fruits))
 
-# List (mutable)
-numbers = [1, 2, 3, 4]
-print("List:", numbers, type(numbers))
+# Tuple
+colors = ("red", "green", "blue")
+print("Colors:", colors, "| Type:", type(colors))
 
-# Tuple (immutable)
-coordinates = (10, 20)
-print("Tuple:", coordinates, type(coordinates))
+# Range
+numbers = range(5)
+print("Numbers:", list(numbers), "| Type:", type(numbers))
 
-# Set (unique elements)
-unique_ids = {1, 2, 3, 3}
-print("Set:", unique_ids, type(unique_ids))
 
-# Dictionary (key-value pairs)
-student = {
-    "name": "Pavithra",
-    "course": "AI",
-    "year": 2025
-}
-print("Dictionary:", student, type(student))
+# ---------------------------
+# 3. Mapping Data Type
+# ---------------------------
 
+# Dictionary
+student = {"name": "Pavithra", "age": 25, "course": "AI/ML"}
+print("Student Info:", student, "| Type:", type(student))
+
+
+# ---------------------------
+# 4. Set Types
+# ---------------------------
+
+# Set
+unique_numbers = {1, 2, 3, 3, 4}
+print("Unique Numbers:", unique_numbers, "| Type:", type(unique_numbers))
+
+# Frozen Set (immutable set)
+immutable_set = frozenset([1, 2, 3, 3, 4])
+print("Immutable Set:", immutable_set, "| Type:", type(immutable_set))
+
+
+# ---------------------------
+# 5. Boolean Type
+# ---------------------------
+
+is_ai_student = True
+print("Is AI Student:", is_ai_student, "| Type:", type(is_ai_student))
+
+
+# ---------------------------
+# 6. None Type
+# ---------------------------
+
+no_value = None
+print("No Value:", no_value, "| Type:", type(no_value))
