@@ -21,5 +21,4 @@ Artificial Intelligence, Machine Learning, and Data Science.
 - Python 3
 - Jupyter Notebook
 
-## Status
-In progress 🚧
+
